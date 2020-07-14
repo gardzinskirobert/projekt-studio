@@ -1,0 +1,145 @@
+/*GLOBAL*/
+$font-1: 'Montserrat', bold;
+$font-2: 'Playfair Display', serif;
+
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid .text-center{
+  height: 80vh;
+}
+.navbar{
+  background-color: transparent;;
+  padding-top: 20px
+}
+.logo {
+padding-right: 600px;
+padding-left: 130px
+}
+/*.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;*/
+}
+.jumbotron {
+    height: 100vh;
+    background-image: url("images/Hero.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.btn-primary {
+    background-color: background-color: rgb(254, 209, 54);;
+}
+/*.hero {
+  height: 100hv;
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;*/
+}
+h1 {
+  padding-top: 180px;
+  font-size: 52px;
+  font-style: italic;
+}
+h2{
+  font-size: 72px;
+  font-weight: bold;
+}
+.box-service {
+text-align: center;
+}
+.circles {
+position: relative;
+}
+.circle {
+position: relative;
+
+}
+.icon-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*.serv {
+  align-items: center;
+}*/
+
+h3 {
+  text-align: center;
+  font-size: 28px;
+  font-style: bold;
+  font-family: $font-1;
+}
+
+h6 {
+  text-align: center;
+  font-size: 16px;
+
+}
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.box-service {
+  disply: inline-block;
+}
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card {
+  display: flex;
+  border: none;
+}
+.card-title {
+  text-align: center;
+}
+.card-body p {
+  text-align: center;
+}
+.footer {
+padding: 70px 0;
+margin: 0 auto;
+text-align: center;
+position: relative; }
+}
+.row-footer {
+  position: relative;
+}
+.nav-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-item {
+  text-align: center;
+}
+.fab {
+  font-size: 40px;
+  color: black;
+}
+.container-fluide p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
